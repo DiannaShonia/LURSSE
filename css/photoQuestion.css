@@ -255,6 +255,7 @@ body {
     background: #fff;
     border-top: 1px solid rgba(14, 57, 107, 0.07);
     box-sizing: border-box;
+    display: none;
 
 
 }
@@ -338,7 +339,7 @@ td {
 
 
 .data {
-    margin-top: 70px;
+    margin-top: 113px;
     display: flex;
     justify-content: center;
     font-weight: bold;

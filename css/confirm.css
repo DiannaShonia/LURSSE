@@ -134,7 +134,7 @@ body {
 
 
 
-.block {
+.block-left {
     width: 55px;
     height: 80px;
     background-color: #009086;
@@ -206,6 +206,8 @@ body {
 
 /*-------------------- SIDEBAR ------------------------*/
 
+
+
 .sidebar {
     margin-right: 80px;
     margin-top: 10px;
@@ -214,7 +216,8 @@ body {
 .column {
     flex-direction: column;
 }
-.container {
+
+.block {
     display:flex;
 
 }
