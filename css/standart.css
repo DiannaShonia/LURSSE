@@ -245,6 +245,7 @@ span {
     background: #fff;
     border-top: 1px solid rgba(14, 57, 107, 0.07);
     box-sizing: border-box;
+    display: none;
 
 
 }
@@ -291,10 +292,9 @@ td {
 
 }
 
-.primary {
-    color: #009086;
-    font-weight: bolder;
-
+.darker {
+    background-color: #009086;
+    color: #fff;
 }
 
 
@@ -321,6 +321,8 @@ td {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+
 }
 
 
@@ -328,7 +330,7 @@ td {
 
 
 .data {
-    margin-top: 70px;
+    margin-top: 255px;
     display: flex;
     justify-content: center;
     font-weight: bold;
