@@ -70,7 +70,7 @@ body {
 }
 
 .line {
-    margin-top: 20px;
+    margin-top: 25px;
     background: repeating-linear-gradient(to right,#0f1319 0, #0f1319 10px,transparent 10px,transparent 20px);
     height: 1px;
     opacity: 0.2;
