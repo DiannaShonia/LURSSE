@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.site {
+    display: flex;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~LEFT SIDE~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.left-side {
+    width: 801px;
+    height: 100vh;
+    display: flex;
+    background-image: url(../img/left-background.jpg);
+    
+}
+
+.wrapper {
+    margin: 0 80px;
+    width: 600px;
+    box-sizing: border-box;
+    
+}
+
+.sign-in-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 41px auto;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.39;
+}
+
+.logo {
+    margin: 180px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    padding-bottom: 41px;
+}
+
+.line {
+   background: repeating-linear-gradient(to right,#0f1319 0, #0f1319 10px,transparent 10px,transparent 20px);
+   height: 1px;
+   opacity: 0.2;
+
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~LOG IN~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.input {
+    height: 45px;
+    border: 1px solid #0f1319;
+    color: #0f1319;
+    padding: 22px 304.3px 19px 21px;
+    box-sizing: border-box;
+    outline: none;
+    margin-bottom: 25px;
+    font-size: 15px;
+    background-color: inherit;
+    opacity: 0.3;
+    
+
+}
+
+
+.email, .password {
+    color: #0f1319;
+    font-weight: 600;
+    margin-bottom: 9px;
+}
+
+.pass {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.eye {
+    color: #0f1319;
+    font-size: 25px;
+    opacity: 0.3;
+    position: absolute;
+    top:0;
+    right: 0;
+    margin: 34px 10px;
+    
+ 
+
+}
+
+.sign-btn {
+    height: 50px;
+    margin-top: 33px;
+    background: #009086;
+    border:0;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 16px;
+
+}
+
+
+.forgot {
+    width: 100%;
+    text-align: right;
+}
+
+.forgot a {
+    color: #009086;
+    font-size: 14px;
+}
+
+.checkbox-container input[type=checkbox] {
+    margin: 0;
+    display: none;
+    cursor: pointer;
+}
+
+.checkbox-label{
+    color: #009086;
+    cursor: pointer;
+    display: flex;
+    position: absolute;
+    font-size: 14px;
+}
+
+
+
+.checkbox-label::before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    border: 1px solid #009086;
+    margin-right: 9px;
+
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~RIGHT SIDE~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.right-side {
+    width: 1100px;
+    height: 100vh;
+    object-fit: contain;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .text {
+      color: #fff;
+      height: 100vh;
+      width: 100vh;
+      box-sizing: border-box;
+      background: rgba(0,0,0,0.7);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
+
+  }
+
+  .heading {
+    width: 580px;  
+    margin-bottom: 24px;
+    font-size: 42px;
+    text-transform: uppercase;
+    line-height: 1.14;
+    text-align: left;
+  }
+
+.text p {
+    height: 105px;
+    width: 580px;
+    font-size: 18px;
+    line-height:1.5;
+    
+}
+
+.copy {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: rgba(168, 168, 168, 0.774);
+    margin: 0 27px;
+   
+
+}
+

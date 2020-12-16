@@ -1,0 +1,234 @@
+/*--------------------RESET CSS------------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    background-image: url(../img/left-background.jpg);
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: serif;
+    
+}
+
+
+
+/*--------------------HEADER------------------------*/
+
+
+
+.logo img{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-top: 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 220px;
+    height: 45px;
+  
+
+        
+}
+
+
+.line {
+    margin-top: 25px;
+    background: repeating-linear-gradient(to right,#0f1319 0, #0f1319 10px,transparent 10px,transparent 20px);
+    height: 1px;
+    opacity: 0.2;
+ 
+ }
+
+
+
+/*--------------------MAIN------------------------*/
+
+
+.main {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+.block {
+    width: 55px;
+    height: 80px;
+    background-color: #009086;
+    position: absolute;
+    top:120px;
+    left:0;
+}
+
+
+.block-right {
+    width: 55px;
+    height: 80px;
+    background-color: #009086;
+    position: absolute;
+    top:120px;
+    right:0;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.heading h1 {
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: bold;
+    color: #0f1319;
+    margin-top: 65px;
+    width: 352px;
+    height: 85px;
+    margin-bottom: 15px;
+
+
+}
+
+.smaller {
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: none;
+    color: #0f1319;
+}
+
+.heading p {
+    font-size: 18px;
+    color: #0f1319;
+    line-height: 1.69;
+    width: 100%;
+    height: 50px;
+    white-space: nowrap;   
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-family: 'Montserrat', sans-serif;
+
+    
+}
+
+
+
+.bold {
+    font-weight: bold;
+}
+
+
+
+.timer-block {
+    font-size: 16px;
+    color: #0f1319;
+    display: flex;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+
+
+
+}
+
+.timer {
+    font-size: 22px;
+    color: #009086;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+
+    
+}
+
+.image img{
+    margin-top: 25px;
+    width: 360px;
+    height: 320px;
+}
+
+
+/*-------------------- FOOTER ------------------------*/
+
+.footer {
+    margin-top: 192px;
+
+}
+
+.data {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: #031d3c;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.data li {
+    padding:0 20px;
+}
+
+.copy {
+    margin: 30px 0 5px 0;
+    font-size: 14px;
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
