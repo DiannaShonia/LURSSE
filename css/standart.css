@@ -26,7 +26,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    overflow: hidden;
 }
 ol, ul {
 	list-style: none;
@@ -226,8 +227,27 @@ span {
 /*-------------------- SIDEBAR ------------------------*/
 
 .sidebar {
-    margin-right: 95px;
-    margin-top: 10px;
+    margin-right: 60px;
+    margin-top: 10px; 
+    max-height: 735px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 530px;
+
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 7px;
+
+}
+
+::-webkit-scrollbar-track {
+    background: #031d3c41;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #009086;
+
 }
 
 .column {
@@ -235,6 +255,7 @@ span {
 }
 .block {
     display:flex;
+    width: 350px;
 
 }
 
@@ -245,7 +266,7 @@ span {
     background: #fff;
     border-top: 1px solid rgba(14, 57, 107, 0.07);
     box-sizing: border-box;
-
+    display: none;
 
 }
 
@@ -291,10 +312,9 @@ td {
 
 }
 
-.primary {
-    color: #009086;
-    font-weight: bolder;
-
+.darker {
+    background-color: #009086;
+    color: #fff;
 }
 
 
@@ -321,14 +341,20 @@ td {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+
 }
 
 
 /*-------------------- FOOTER ------------------------*/
 
+.footer {
+    position: absolute;
+    bottom:10px;
+    left:35%
+}
 
 .data {
-    margin-top: 70px;
     display: flex;
     justify-content: center;
     font-weight: bold;
