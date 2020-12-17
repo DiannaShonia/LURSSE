@@ -236,8 +236,26 @@ body {
 /*-------------------- SIDEBAR ------------------------*/
 
 .sidebar {
-    margin-right: 95px;
-    margin-top: 10px;
+    margin-right: 60px;
+    margin-top: 10px; 
+    max-height: 735px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 530px;
+
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 7px;
+
+}
+
+::-webkit-scrollbar-track {
+    background: #031d3c41;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #009086;
 }
 
 .column {
@@ -337,9 +355,13 @@ td {
 
 /*-------------------- FOOTER ------------------------*/
 
+.footer {
+    position: absolute;
+    bottom:10px;
+    left:35%
+}
 
 .data {
-    margin-top: 113px;
     display: flex;
     justify-content: center;
     font-weight: bold;

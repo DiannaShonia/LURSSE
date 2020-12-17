@@ -205,8 +205,9 @@ body {
 /*-------------------- FOOTER ------------------------*/
 
 .footer {
-    margin-top: 188px;
-
+    position: absolute;
+    bottom:10px;
+    left:35%
 }
 
 .data {
@@ -215,8 +216,6 @@ body {
     font-weight: bold;
     color: #031d3c;
     font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
-
 }
 
 .data li {
