@@ -54,28 +54,52 @@ body {
 
 /*--------------------HEADER------------------------*/
 
+.logo {
+    position: relative;
+}
+
+.header {
+    position: relative;
+}
+
+.header::after {
+    content: ' ';
+    width: 55px;
+    height: 80px;
+    background-color: #009086;
+    position: absolute;
+    top: 113px;
+}
+
 
 .logo img{
     display:flex;
     justify-content:center;
     align-items:center;
-    padding-top: 15px;
+    padding: 20px 0 25px;
     margin: 0 auto;
-    box-sizing: border-box;
     width: 220px;
-    height: 45px;
+    height: 35px;
   
 
         
 }
 
-.line {
-    margin-top: 25px;
+.logo::after {
+    content: ' ';
     background: repeating-linear-gradient(to right,#0f1319 0, #0f1319 10px,transparent 10px,transparent 20px);
     height: 1px;
+    width: 100%;
     opacity: 0.2;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5px;
  
  }
+
+
+
+
 
 /*--------------------MAIN------------------------*/
 .main {
@@ -83,17 +107,11 @@ body {
 }
 
 .wrapper {
-    width: 1770px;
-    margin-left:95px;
+    width: 90%;
+    margin: 0 auto;
 }
 
-.block {
-    width: 55px;
-    height: 80px;
-    background-color: #009086;
-    position: absolute;
-    top:120px
-}
+
 
 .instructions h1 {
     text-transform: uppercase;
@@ -186,12 +204,8 @@ body {
     border: 0;
     text-transform: capitalize;
     margin: 24px 0;
+    cursor: pointer;
 
-}
-
-.start a {
-    text-decoration: none;
-    color: #fff;
 }
 
 
@@ -200,7 +214,7 @@ body {
 
 
 .copy {
-    margin: 30px 0 5px 0;
+    margin: 10px 0 5px 0;
     font-size: 14px;
     opacity: 0.6;
     display: flex;
