@@ -47,8 +47,6 @@ table {
 body {
     background-image: url(../img/left-background.jpg);
     margin: 0;
-    width: 100vw;
-    height: 100vh;
     font-family: serif;
     
 }
@@ -58,29 +56,48 @@ body {
 /*--------------------HEADER------------------------*/
 
 
+.logo {
+    position: relative;
+}
+
+.header {
+    position: relative;
+}
+
+.header::after {
+    content: ' ';
+    width: 55px;
+    height: 80px;
+    background-color: #009086;
+    position: absolute;
+    top: 113px;
+}
+
+
 
 .logo img{
     display:flex;
     justify-content:center;
     align-items:center;
-    padding-top: 15px;
+    padding: 20px 0 25px;
     margin: 0 auto;
-    box-sizing: border-box;
     width: 220px;
-    height: 45px;
-  
-
-        
+    height: 35px;       
 }
 
-
-.line {
-    margin-top: 25px;
+.logo::after {
+    content: ' ';
     background: repeating-linear-gradient(to right,#0f1319 0, #0f1319 10px,transparent 10px,transparent 20px);
     height: 1px;
+    width: 100%;
     opacity: 0.2;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5px;
  
  }
+
+
 
 
 
@@ -88,33 +105,21 @@ body {
 
 
 .main {
-    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 81vh;
 }
 
 
 
-
-
-
-.block {
+.heading::before {
+    content: '.';
     width: 55px;
     height: 80px;
     background-color: #009086;
     position: absolute;
-    top:120px;
-    left:0;
-}
-
-
-.block-right {
-    width: 55px;
-    height: 80px;
-    background-color: #009086;
-    position: absolute;
-    top:120px;
+    top:113px;
     right:0;
 }
 
@@ -205,9 +210,7 @@ body {
 /*-------------------- FOOTER ------------------------*/
 
 .footer {
-    position: absolute;
-    bottom:10px;
-    left:35%
+    font-family: 'Montserrat', sans-serif;
 }
 
 .data {
@@ -215,7 +218,8 @@ body {
     justify-content: center;
     font-weight: bold;
     color: #031d3c;
-    font-size: 18px;
+    font-size: 17px;
+    margin-top: 25px;
 }
 
 .data li {
@@ -223,11 +227,9 @@ body {
 }
 
 .copy {
-    margin: 30px 0 5px 0;
+    margin: 25px 0 5px 0;
     font-size: 14px;
     opacity: 0.6;
     display: flex;
     justify-content: center;
-    font-family: 'Montserrat', sans-serif;
-
 }
