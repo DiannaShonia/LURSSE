@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/photoAnswer.css">
+    <link rel="stylesheet" href="./css/photo-question.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>LURSSEN</title>
 
@@ -21,6 +21,7 @@
             <div class="timer"><i class="fa fa-hourglass-start"></i></div>
             <p class="timer-text bold">Übrige Zeit: 15:39</p>
         </div>
+
     </header>
 
     <!------------------------------MAIN---------------------------->
@@ -28,48 +29,58 @@
 
     <div class="wrapper">
         <div class="container-main">
-        <div class="main">
-            <div class="heading">
-                <p><span class="bold">In diesem Abschnitt werden Ihre Geometriekenntnisse auf die Probe gestellt.</span> <br>
-                    Beantworten Sie bitte die folgenden Aufgaben, indem Sie jeweils den richtigen Buchstaben im Lösungsbogen ankreuzen.  </p>       
-            </div>
-            <div class="question-block">
-                <p class="question"><span class="bold">21. </span>Welche Figur unterscheidet sich von den anderen?  </p>
-                <div class="answers-block">
-                        <div class="row column">
-                            <div class="sup-ans"><img src="/img/image1.png" alt=""></div>
-                            <button class="sup-range">a</button>
-                        </div>
-                        <div class="row column">
-                            <div class="sup-ans"><img src="/img/image1.png" alt=""></div>
-                            <button class="sup-range">b</button>
-                        </div>
-                        <div class="row column">
-                            <div class="sup-ans"><img src="/img/image2.png" alt=""></div>
-                            <button class="sup-range checked">c</button>
-                        </div>
-                        <div class="row column">
-                            <div class="sup-ans"><img src="/img/image1.png" alt=""></div>
-                            <button class="sup-range">d</button>
-                        </div>
-                        <div class="row column">
-                            <div class="sup-ans"><img src="/img/image1.png" alt=""></div>
-                            <button class="sup-range">e</button>
-                        </div>
+            <div class="main">
+                <div class="heading">
+                    <p><span class="bold">In diesem Abschnitt werden Ihre Geometriekenntnisse auf die Probe gestellt.</span> <br>
+                        Beantworten Sie bitte die folgenden Aufgaben, indem Sie jeweils den richtigen Buchstaben im Lösungsbogen ankreuzen.  </p>       
                 </div>
-                <div class="skip">
-                    <a href="./confirm.html" class="skip-q">Skip Question</a>
-                    <div class="skip-chevron"><i class="fa fa-chevron-right"></i></div>
+                <div class="question-block">
+                    <p class="question"><span class="bold">3. </span> Das Zylindervolumen berechnet sich nach der Formel: V = π × r² × h. Welchen Rauminhalt hat der abgebildete Zylinder?  </p>
+                    <img src="./img/image.png"  class="image">
+                    <div class="answers-block">
+                        <div class="left-ans">
+                            <div class="row">
+                                <button class="sup-range">A</button>
+                                <div class="sup-ans">Rund 802 m²</div>
+                            </div>
+                            <div class="row">
+                                <button class="sup-range dark">c</button>
+                                <div class="sup-ans">Rund 214 m²</div>
+                            </div>
+                            <div class="row">
+                                <button class="sup-range">e</button>
+                                <div class="sup-ans">Rund 214 m²</div>
+                            </div>
+                        </div>
+                        <div class="right-ans">
+                            <div class="row">
+                                <button class="sup-range checked">b</button>
+                                <div class="sup-ans">Rund 214 m²</div>
+                            </div>
+                            <div class="row">
+                                <button class="sup-range">d</button>
+                                <div class="sup-ans">Rund 802 m²</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skip">
+                        <a href="/photo-answer.html" class="skip-q">Skip Question</a>
+                        <div class="skip-chevron"><i class="fa fa-chevron-right"></i></div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <aside class="sidebar">
+
+            
+     <!------------------------------SIDEBAR-------------------------------->
+
+     
+            <aside class="sidebar">
         <div class="row column">
             <div class="block">
                 <div class="subject">
                     Allgemeinwissen
                 </div>
-                <div class="chevron"><i class="fa fa-chevron-down"></i></div>
+                <div class="chevron"></div>
             </div>
             <div class="calendar">
                 <div class="calendar-heading">Verschiedene Themen</div>
@@ -120,7 +131,7 @@
                 <div class="subject">
                     Fachbezogenes Wissen
                 </div>
-                <div class="chevron"><i class="fa fa-chevron-down"></i></div>
+                <div class="chevron"></div>
             </div>
             <div class="calendar">
                 <div class="calendar-heading">Verschiedene Themen</div>
@@ -171,7 +182,7 @@
                 <div class="subject">
                     Mathematik
                 </div>
-                <div class="chevron"><i class="fa fa-chevron-down"></i></div>
+                <div class="chevron"></i></div>
             </div>
             <div class="calendar">
                 <div class="calendar-heading">Verschiedene Themen</div>
@@ -222,7 +233,7 @@
                 <div class="subject">
                     Technisches Verständnis
                 </div>
-                <div class="chevron"><i class="fa fa-chevron-down"></i></div>
+                <div class="chevron"></i></div>
             </div>
             <div class="calendar">
                 <div class="calendar-heading">Verschiedene Themen</div>
@@ -273,7 +284,7 @@
                 <div class="subject">
                     Sprachbeherrschung 
                </div>
-                <div class="chevron"><i class="fa fa-chevron-down"></i></div>
+                <div class="chevron"></i></div>
             </div>
             <div class="calendar">
                 <div class="calendar-heading">Verschiedene Themen</div>
@@ -324,7 +335,7 @@
                 <div class="subject">
                     Logisches Denkvermögen
                 </div>
-                <div class="chevron"><i class="fa fa-chevron-down"></i></div>
+                <div class="chevron"></i></div>
             </div>
             <div class="calendar">
                 <div class="calendar-heading">Verschiedene Themen</div>
@@ -375,7 +386,7 @@
                 <div class="subject">
                     Visuelles Denkvermögen
                 </div>
-                <div class="chevron"><i class="fa fa-chevron-down"></i></div>
+                <div class="chevron"></i></div>
             </div>
             <div class="calendar">
                 <div class="calendar-heading">Verschiedene Themen</div>
@@ -426,7 +437,7 @@
                 <div class="subject">
                     Fremdsprachenkenntnisse
                 </div>
-                <div class="chevron"><i class="fa fa-chevron-down"></i></div>
+                <div class="chevron"></i></div>
             </div>
             <div class="calendar">
                 <div class="calendar-heading">Verschiedene Themen</div>
@@ -472,12 +483,9 @@
                 </div>
             </div>
         </div>
-        </aside>                    
+            </aside>   
         </div>
-
-    <!------------------------------SIDEBAR-------------------------------->
-
-</div>
+    </div>
 
 
 
@@ -502,6 +510,8 @@
         </div>
     </footer>
 
+
+    <script src="./js/photo-question.js"></script>
 
 </body>
 </html>

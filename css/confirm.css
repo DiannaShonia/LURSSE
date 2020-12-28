@@ -325,8 +325,16 @@ td {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    background-image: url(../img/down.png);
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: center;
 }
 
+.chevron-up {
+    background-image: url(../img/up.png);
+}
 
 /*-------------------- FOOTER ------------------------*/
 

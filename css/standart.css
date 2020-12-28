@@ -281,7 +281,6 @@ button {
     border-top: 1px solid rgba(14, 57, 107, 0.07);
     box-sizing: border-box;
     display: none;
-    ;
 
 }
 
@@ -363,9 +362,15 @@ td {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-
+    background-image: url(../img/down.png);
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: center;
 }
 
+.chevron-up {
+    background-image: url(../img/up.png);
+}
 
 /*-------------------- FOOTER ------------------------*/
 
