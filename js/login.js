@@ -4,7 +4,6 @@ let checkbox = document.querySelector('.checkbox');
 let checked = document.querySelector('.checked');
 
 
-
 document.addEventListener('click', function(event) {
     if(event.target.classList.contains('checkbox')){
         checked.style.display = 'flex'
