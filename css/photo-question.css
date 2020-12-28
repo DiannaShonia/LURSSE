@@ -48,6 +48,8 @@ body {
     background-image: url(../img/left-background.jpg);
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    width: 100vw;
+    height: 100vh;
     
 }
 
@@ -117,6 +119,8 @@ button {
 
 }
 
+
+
 /*--------------------MAIN------------------------*/
 
 .container-main {
@@ -150,6 +154,7 @@ button {
 }
 
 
+
 .heading {
     background-color: #009086;
     color: #fff;
@@ -163,7 +168,6 @@ button {
     width: 1135px;
     box-sizing: border-box;
 }
-
 
 
 /*-------------------- QUESTION ------------------------*/
@@ -183,9 +187,7 @@ button {
 }
 
 .answers-block {
-    margin-right: 95px;
     display: flex;
- 
 }
 
 
@@ -196,11 +198,11 @@ button {
 
 .row {
     display: flex;
-    margin: 15px 15px 15px 0;
+    margin: 15px 0
 }
 
 .sup-range {
-    width: 164px;
+    width: 42px;
     height: 42px;
     color: #0f1319;
     font-weight: bold;
@@ -212,7 +214,6 @@ button {
     justify-content: center;
     font-family: sans-serif;
     font-size: 18px;
-    margin-bottom: 5px;;
 
 }
 
@@ -220,26 +221,25 @@ button {
 
 
 .sup-ans {
-    margin-top: 20px;
-    width: 164px;
-    height: 133px;
+    width: 398px;
+    height: 42px;
     background-color: #ffffff;
     display: flex;
     align-items: center;
+    padding: 0 16px;    
     box-shadow: 0 10px 10px 0 #0e396b12;
     font-size: 15px;
-    justify-content: center;
 
 }
 
-.sup-ans img {
-    height: 99px;
-    width: 94px;
+.right-ans {
+    margin-left: 20px;
 }
 
 
 .skip {
     display: flex;
+    margin: 15px 0;
 }
 
 .skip a{
@@ -257,7 +257,6 @@ button {
     color: #009086;
     padding: 0 10px;
 }
-
 
 /*-------------------- SIDEBAR ------------------------*/
 
@@ -333,6 +332,7 @@ td {
 
 .primary {
     color: #009086;
+    font-weight: bold;
 
 }
 
@@ -360,6 +360,15 @@ td {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    background-image: url(../img/down.png);
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: center;
+}
+
+.chevron-up {
+    background-image: url(../img/up.png);
 }
 
 
